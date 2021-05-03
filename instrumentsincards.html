@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        body{
+            margin: 0;
+            padding: 5%;
+            background: url('https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/YT_Music.jpg') no-repeat center center/cover;
+            backdrop-filter:blur(8px);
+            background-attachment: fixed;
+            
+        }
+        h1{
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            letter-spacing: 1cm;
+            text-shadow: 3px 3px blue;
+            color: red;
+        }
+        .cards{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap; 
+            justify-content: space-evenly;
+        }
+        .card{
+            width: 25%;
+            background-color: rgba(0, 255, 13, 0.993);
+            box-shadow: 0px 7px 30px -10px black;
+        }
+        .image img{
+            width: 100%;
+        }
+        .description{
+            padding: 5%;
+        }
+        .description h4{
+            font-family: 'Lobster', cursive;
+        }
+        .description p{
+            font-family: 'Dancing Script', cursive;
+        }
+    </style>
+    <body>    
+       <h1>Instruments</h1>
+        <div class='cards'>
+           <div class='card'>
+               <div class='image'>
+                   <img src='https://cdn.images.fecom-media.com/HE1656981_182037-HOP-MUS-P01.jpg'>
+               </div>
+               <div class='description'>
+                   <h4>The Piano</h4>
+                    <p>The piano is an acoustic, stringed musical instrument invented in Italy by Bartolomeo Cristofori around the year 1700 (the exact year is uncertain), in which the strings are struck by wooden hammers that are coated with a softer material (modern hammers are covered with dense wool felt; some early pianos used leather). It is played using a keyboard, which is a row of keys (small levers) that the performer presses down or strikes with the fingers and thumbs of both hands to cause the hammers to strike the strings.</p>
+               </div>
+           </div>
+           <div class='card'>
+               <div class='image'>
+                   <img src='https://thumbs.static-thomann.de/thumb/padthumb600x360/pics/bdb/357575/14362083_800.jpg'>
+               </div>
+               <div class='description'>
+                   <h4>The Violin</h4>
+                   <p>The violin, sometimes known as a fiddle, is a wooden chordophone (string instrument) in the violin family.Most violins have a hollow wooden body. It is the smallest and thus highest-pitched instrument (soprano) in the family in regular use.[a] The violin typically has four strings, usually tuned in perfect fifths with notes G3, D4, A4, E5, and is most commonly played by drawing a bow across its strings</p>
+               </div>
+           </div>
+           <div class='card'>
+            <div class='image'>
+                <img src='https://www.musikalessons.com/blog/wp-content/uploads/2016/05/silver-flute-isolated.jpg'>
+            </div>
+            <div class='description'>
+                <h4>Flute</h4>
+                <p>If you are looking for an instrument that can give you countless different ensemble options, then you should absolutely sign up for flute lessons.Some of the different ensembles that flutes are used frequently in include concert and jazz bands, orchestra, wind bands, pit orchestra, flute choirs, military bands and more.</p>
+            </div>
+        </div>
+       </div>
+    </body>
+</html>
